@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+int q1()
 {
     int a;
     printf("\n1.January");
@@ -57,6 +57,39 @@ int main()
     
     default:
     printf("\ndefault");
+        break;
+    }
+}
+int main()
+{
+    int a;
+    printf("\n1.Addition");
+    printf("\n2.Substraction");
+    printf("\n3.Multiplication");
+    printf("\n4.Division");
+    printf("\n5.Exit");
+    printf("\nChoose from your menue");
+    scanf("%d",&a);
+    switch (a)
+    {
+    case 1:
+    printf("You Have Selected Addition");
+        break;
+        case 2:
+        printf("You Have Selected Substraction");
+        break;
+        case 3:
+        printf("You Have Selected Multiplication");
+        break;
+        case 4:
+        printf("You Have Selected Division");
+        break;
+        case 5:
+        printf("Exit");
+        break;
+    
+    default:
+    printf("Default");
         break;
     }
 }
