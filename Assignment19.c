@@ -60,7 +60,7 @@ int q1()
         break;
     }
 }
-int main()
+int q2()
 {
     int a;
     printf("\n1.Addition");
@@ -90,6 +90,47 @@ int main()
     
     default:
     printf("Default");
+        break;
+    }
+}
+int q3()
+{
+    int a;
+    printf("\n1.Monday");
+    printf("\n2.Tuesday");
+    printf("\n3.Wednasday");
+    printf("\n4.Thrusday");
+    printf("\n5.Friday");
+    printf("\n6.Saturday");
+    printf("\n7.Sunday");
+    printf("\nEnter Your Day Number");
+    scanf("%d",&a);
+    switch (a)
+    {
+    case 1:
+printf("\nWelcome to Monday Nou go to work");
+        break;
+        case 2:
+        printf("\nHappy Tuesday");
+        break;
+        case 3:
+        printf("\nHappy Wednasday");
+        break;
+        case 4:
+        printf("\nHappy Thrusday");
+        break;
+        case 5:
+        printf("\nHappy friday ");
+        break;
+        case 6:
+        printf("\nHappy Sleeping Saturday");
+        break;
+        case 7:
+        printf("\nHappy Sunday");
+        break;
+    
+    default:
+    printf("\nDefault");
         break;
     }
 }
