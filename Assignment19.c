@@ -189,3 +189,24 @@ int q4()
     }
     return 0;
 }
+int q5()
+{
+    int a;
+    printf("Enter Value Of a");
+    scanf("%d",&a);
+    switch (a)
+    {
+    case 1:
+    printf("Good");
+        break;
+    case 2:
+    printf("Better");
+    break;
+    case 3:
+    printf("best");
+    break;
+    default:
+    printf("Invalid");
+        break;
+    }
+}
