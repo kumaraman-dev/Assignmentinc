@@ -112,3 +112,46 @@ int q3()
         break;
     }
 }
+int q4()
+{
+    char a;
+    printf("Enter Your Character");
+    scanf("%c",&a);
+    switch (a)
+    {
+    case 'A':
+    printf("vowel");
+        break;
+        case 'B'...'D':
+        printf("consonant");
+        break;
+        case 'E':
+        printf("Vowel");
+        break;
+        case 'F'...'H':
+        printf("CONSTANT");
+        break;
+        case 'I':
+        printf("Vowel");
+        break;
+        case 'J'...'N':
+        printf("CONSTANT");
+        break;
+        case 'O':
+        printf("VOWEL");
+        break;
+        case 'P'...'T':
+        printf("CONSTANT");
+        break;
+        case 'U':
+        printf("VOWEL");
+        break;
+        case 'V'...'Z':
+        printf("constant");
+        break;
+    
+    default:
+    printf("SPECIAL CHARACTER");
+        break;
+    }
+}
