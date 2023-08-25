@@ -134,3 +134,58 @@ printf("\nWelcome to Monday Nou go to work");
         break;
     }
 }
+int q4()
+{
+    int x,y,z,a;
+    printf("\n1.Check Weather a given Sets Of Three Numbers Are Lenghth of an Isocelles or not");
+    printf("\n2.Check Weather A given Set of Three Number Are Lenght of sides of Right angled traingle or not");
+    printf("\n3.Check Weather A given Set of three Number Are Equiletral or not");
+    printf("\n4.Exit");
+    printf("\nChoose Your Choice");
+    scanf("%d",&a);
+    switch (a)
+    {
+    case 1:
+    printf("\nEnter Three Sides Of Your Traingle");
+    scanf("%d%d%d",&x,&y,&z);
+    if (x==y || y==z || z==x)
+    {
+        printf("\nYour Thraingle is isocelles ");
+    }
+    else{
+        printf("\nYour traingle is not isocleses");
+    }
+    
+        break;
+        case 2:
+        printf("\nEnter Three Sides Of Your Traingle");
+        scanf("%d%d%d",&x,&y,&z);
+        if ((x*x)+(y*y)==(z*z) || (y*y)+(z*z)==(x*x) || (x*x)+(z*z)==(y*y))
+        {
+            printf("\nThis Traingle is Right Angle Traingle");
+        }
+        else{
+            printf("\nThe Traingle Is Not Right Angled Traingle");
+        }
+        break;
+        case 3:
+        printf("\nEnter Three Sides Of Traingle");
+        scanf("%d%d%d",&x,&y,&z);
+        if (x==y && y==z && z==x)
+        {
+           printf("\nYour Traingle Is Eqiletral Traingle");
+        }
+        else{
+            printf("\nYour Trainge Is Not Equiletral Traingle");
+        }
+        break;
+        case 4:
+        printf("\nExit");
+        break;
+    
+    default:
+    printf("\nDefault");
+        break;
+    }
+    return 0;
+}
