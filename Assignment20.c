@@ -155,3 +155,74 @@ int q4()
         break;
     }
 }
+int main()
+{
+    int c;
+    int a,b,L;
+    int n,sum=0,m; 
+    int e,f,g,h;
+    int x,i;
+    printf("\n1.Calculate LCM Of Two Number");
+    printf("\n2.Calculte the sum of digits of number");
+    printf("\n3.Volume Of Cuboid");
+    printf("\n4.Check weather the number is prime or not");
+    printf("\n5.Exit");
+    printf("\nChoose your number");
+    scanf("%d",&c);
+    switch (c)
+    {
+    case 1:
+ 
+    printf("\nEnter two number");
+    scanf("%d%d",&a,&b);
+    for(L=a>b?a:b;L<=a*b;L++)
+    {
+        if(L%a==0 && L%b==0)
+            break;
+    }
+    printf("LCM is %d",L);
+        break;
+    case 2:
+       
+printf("Enter a number:");    
+scanf("%d",&n);    
+while(n>0)    
+{    
+m=n%10;    
+sum=sum+m;    
+n=n/10;    
+}    
+printf("Sum is=%d",sum);    
+break;
+case 3:
+printf("Enter Lenghth , breadth and height");
+scanf("%d%d%d",&e,&f,&g);
+h=e*f*g;
+printf("%d",h);
+break;
+case 4:
+printf("Enter your number");
+scanf("%d",&x);
+for ( i = 2; i <=x-1; i++)
+{
+    if (x%i==0)
+    break;
+    
+}
+if (i==x)
+{
+    printf("prime");
+}
+else{
+    printf("Not Prime");
+}
+break;
+case 5:
+printf("Exit");
+break;
+
+    default:
+    printf("default");
+        break;
+    }
+}
