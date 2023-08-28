@@ -36,3 +36,26 @@ float simist(int p,int r, int t)
     s=(p*r*t)/100;
     return s;
 }*/
+/*#include<stdio.h>
+int no(int);
+int main()
+{
+int x;
+int s;
+printf("Enter Your Number");
+scanf("%d",&x);
+s= no(x);
+printf("%d",s);
+}
+int no(int x)
+{
+if (x%2==0)
+{
+    return 1;
+}
+else{
+    return 0;
+}
+
+}*/
+
