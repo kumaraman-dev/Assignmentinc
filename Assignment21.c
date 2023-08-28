@@ -58,4 +58,23 @@ else{
 }
 
 }*/
+#include<stdio.h>
+int ok(int);
+int main()
+{
+int n;
+printf("Enter natural number you print");
+scanf("%d",&n);
+ok(n);
+
+}
+int ok(int x)
+{
+for (int i = 1; i <=x; i++)
+{
+    printf("%d ",i);
+   
+}
+
+}
 
