@@ -54,7 +54,7 @@ for ( k = 1,t=1; k <=(n-r); k++)
 z=p/(q*t);
 return z;
 }*/
-#include<stdio.h>
+/*#include<stdio.h>
 int arrangment(int, int);
 int main()
 {
@@ -88,5 +88,20 @@ else
     t=p/q;
     return t;
 }
+
+}*/
+#include<stdio.h>
+int digit(int,int);
+int main()
+{
+    int n,x,s;
+printf("Enter The Number");
+scanf("%d",&n);
+printf("Enter Digit");
+scanf("%d",&x);
+s = digit(n,x);
+}
+int digit(int n, int x)
+{
 
 }
